@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+
+
+//   function add()
+//   {
+//     var x = parseInt(document.getElementById("txtNo1").value);
+//     var y = parseInt(document.getElementById("txtNo2").value);
+//     //alert(x+y);
+//     console.log(x+y);
+//     document.getElementById("txtResult").value = x+y;
+//  }
+//  function subtract()
+//  {
+//   var x = parseInt(document.getElementById("txtNo1").value);
+//     var y = parseInt(document.getElementById("txtNo2").value);
+//     //alert(x+y);
+//     console.log(x-y);
+//     document.getElementById("txtResult").value = x-y;
+//  }
+//  function product()
+//  {
+//   var x = parseInt(document.getElementById("txtNo1").value);
+//     var y = parseInt(document.getElementById("txtNo2").value);
+//     //alert(x+y);
+//     console.log(x*y);
+//     document.getElementById("txtResult").value = x*y;
+//  }
+//  function divide()
+//  {
+//   var x = parseInt(document.getElementById("txtNo1").value);
+//     var y = parseInt(document.getElementById("txtNo2").value);
+//     //alert(x+y);
+//     console.log(x/y);
+//     document.getElementById("txtResult").value = x/y;
+//  }
+//  function change()
+//  {
+//    alert("A");
+//   document.getElementById("para1").style.fontSize = "35px";
+//  }
+ 
+  </head>
+  <body>
+    <h1> Add Numbers </h1>
+    <p id="para1"> JavaScript and Java are completely different languages, both in concept and design.
+
+      JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+      
+      ECMA-262 is the official name of the standard. ECMAScript is the official name of the language. </p>
+    <form>
+      <div>
+      <label for="txtNo1"> Enter No 1 </label>
+      <input type="number" name="txtNo1" id="txtNo1"/>
+    </div>
+    <div>
+      <label for="txtNo2"> Enter No 2 </label>
+      <input type="number" name="txtNo2" id="txtNo2"/>
+    </div>
+    <div>
+      <label for="txtResult"> Result </label>
+      <input type="number" name="txtResult" id="txtResult"/>
+    </div>
+    <button type="button" onclick="add();"> Add </button>
+    <button type="button" onclick="subtract();"> Subtract </button>
+    <button type="button" onclick="product();"> Product </button>
+    <button type="button" onclick="divide();"> Divide </button>
+    <button type="button" onclick="change()"> Change Style </button>
+    <button type="button" onclick="documentwrite()"> Document Write Call </button>
+    </form>
+    <script src="script.js"> </script>
+  </body> 
+</html>

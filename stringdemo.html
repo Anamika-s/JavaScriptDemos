@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <form>
+      Enter Name :  <input type="text" id="txtName"/>
+      <button type="button" onclick="Length()"> No of Charcaters </button>
+      <button type="button" onclick="UpperCase()">Upper Case </button>
+        
+    </form> 
+      <script>
+        function Length()
+        {
+          console.log(document.getElementById("txtName").value.length);
+        }
+        function UpperCase()
+        {
+          console.log(document.getElementById("txtName").value.toUpperCase());
+        }
+      </script>
+  </body>
+</html>
